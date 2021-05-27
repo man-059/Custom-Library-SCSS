@@ -1,0 +1,29 @@
+/*------ MIXINS DEFINED BY DEVELOPER ---------------------------------------------------------------------------------*/
+//insert your mixins here
+
+@mixin std_menu_ul()
+{
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+  @include display(inline-flex);
+  @media (max-width: 991.98px)
+  {
+    display: block;
+  }
+}
+
+@mixin std_menu_li()
+{
+  position: relative;
+  display: block;
+}
+
+@mixin std_menu_a()
+{
+
+}

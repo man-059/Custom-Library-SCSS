@@ -1,0 +1,116 @@
+@import '_variables.scss';
+
+html
+{
+  font-size: /*define font size here*/;
+  font-family: /*define font here*/;
+  scroll-behavior: smooth;
+}
+
+body
+{
+  font-size: /*define font size here*/;
+  font-family: /*define font here*/;
+}
+
+#page.site
+{
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+}
+
+section
+{
+
+}
+
+.container
+{
+  /*
+  OPTIONAL
+  
+  define custom size for container here
+  */
+}
+
+.no-scroll
+{
+  overflow-y: hidden;
+}
+
+a
+{
+  &:hover
+  {
+
+  }
+}
+
+span
+{
+  
+}
+
+ul
+{
+  li
+  {
+  
+  }
+}
+
+p
+{
+  ul
+  {
+    li
+    {
+    
+    }
+  }
+  span
+  {
+  
+  }
+}
+
+table
+{
+  tr
+  {
+    td
+	{
+	
+	}
+  }
+}
+
+h1
+{
+
+}
+
+h2
+{
+
+}
+
+h3
+{
+
+}
+
+h4
+{
+
+}
+
+h5
+{
+
+}
+
+h6
+{
+
+}

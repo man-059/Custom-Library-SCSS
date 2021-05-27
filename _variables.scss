@@ -1,0 +1,26 @@
+/*------ Just include this file in your styles.scss -------------------------*/
+
+@import '_defaults/_matthieus_mixins.scss';
+@import '_defaults/_standart_colors.scss';
+@import '_defaults/_webkit_mixins.scss';
+@import '_defaults/_filter_mixins.scss';
+@import '_defaults/_class_sets.scss';
+@import '_user-colors.scss';
+@import '_user-mixins.scss';
+
+@font-face {
+  font-family: '/*font name*/';
+  src: url('assets/fonts/font name.eot');
+  src: url('assets/fonts/font name.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/font name.woff') format('woff'),
+  url('assets/fonts/font name.woff2') format('woff2'),
+  url('assets/fonts/font name.ttf') format('truetype'),
+  url('assets/fonts/font name.svg#font name') format('svg'),
+  url("assets/fonts/font name.otf") format("opentype");
+  font-weight: /*define font weight here*/;
+  font-style: /*define font style here*/;
+}
+
+@import '_partials/_header.scss';
+/* define other partials here*/
+@import '_partials/_footer.scss';
